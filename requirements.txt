@@ -1,0 +1,6 @@
+langgraph==0.2.4
+python-dotenv
+langchain==0.2
+pandas
+langchain-groq
+scikit-learn
