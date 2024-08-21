@@ -33,6 +33,44 @@ This is a basic implementation designed to showcase the concept. The following a
 - **Model Customization**: The LLM's adaptability to different domains may vary.
 - **Feedback Integration**: More sophisticated methods of feedback incorporation could enhance performance.
 
+## ⚙ Getting Started
+
+This guide will help you set up and deploy the LLM-Based Data Classification with Intercoder Reliability project.
+
+#### 1. **Clone the Repository**
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/javivm17/intercoder-reliability-ai.git
+cd intercoder-reliability-ai
+```
+
+#### 2. **Run the installation script**
+
+- Windows:
+
+```PowerShell
+.\setup.ps1
+```
+
+- Linux/Mac:
+
+```bash
+./setup.sh
+```
+
+#### 3. **Classify the Data**
+
+> [!NOTE]
+> In order to run this project correctly, you must tag some examples from the dataset. To do this, go to `/example_data/utils.py` and fill in the list of training labels.
+
+#### 4. **Run the Project**
+
+```bash
+python app.py
+```
+
 ## Contributing
 
 Feel free to fork the repository and submit pull requests. Suggestions and improvements are welcome!
